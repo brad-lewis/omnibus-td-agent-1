@@ -33,6 +33,7 @@ override :jemalloc, :version => '4.5.0'
 override :rubygems, :version => '2.6.14'
 override :postgresql, :version => '9.6.9'
 override :fluentd, :version => 'fddde2ff1f5b1cf8d0d27cee3f59f289b00b257d' # v1.10.2 with windows patch
+override :nokogiri, :version => '1.10.10'
 
 # td-agent dependencies/components
 #dependency "td-agent"
